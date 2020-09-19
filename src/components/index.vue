@@ -41,7 +41,7 @@ export default {
                     this.todos = result.data
                 })
                 .catch(err => {
-                    console.log(err)
+                    alert(err)
                 })
         },
         createTodo(){
@@ -53,7 +53,7 @@ export default {
                         this.getTodo()
                     })
                     .catch(err => {
-                        console.log(err)
+                        alert(err)
                     })
             }
         },
@@ -157,7 +157,7 @@ export default {
     }
     .update-btn {
         margin: 0 0 0 20px;
-        background-color: #15fa00e8;
+        background-color: #00FF0A;
     }
 
     .card {

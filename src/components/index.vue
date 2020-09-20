@@ -41,7 +41,7 @@ export default {
                     this.todos = result.data
                 })
                 .catch(err => {
-                    alert(err)
+                    console.log(err)
                 })
         },
         createTodo(){
@@ -53,7 +53,7 @@ export default {
                         this.getTodo()
                     })
                     .catch(err => {
-                        alert(err)
+                        console.log(err)
                     })
             }
         },

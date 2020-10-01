@@ -1,6 +1,6 @@
 # to_do_app
 
-# see project deployed at https://vuetodorar.web.app/
+### see project deployed at https://vuetodorar.web.app/
 
 ## Project setup
 ```
